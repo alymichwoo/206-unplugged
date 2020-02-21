@@ -350,6 +350,22 @@ input[type=button] {
   background-color: #527158;
 }
 
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .contact-section {
   display: flex;
   justify-content: center;
@@ -483,15 +499,15 @@ input[type=button] {
     margin: 100px 0;
   }
 
-h2 {
-  font-size: 2.25em;
-  line-height: 1.333;
-}
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
 
-h3 {
-  font-size: 1.5em;
-  line-height: 1.25;
-}
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
 
   /* Header */
   header {
@@ -504,9 +520,9 @@ h3 {
     justify-content: space-between;
   }
 
-header figure {
-  width: 30%;
-}
+  header figure {
+    width: 30%;
+  }
 
   header nav {
     width: 20%;
@@ -521,7 +537,6 @@ header figure {
   }
 
   /* Hero Area */
-
   .hero-area {
     min-height: 600px;
   }
@@ -547,7 +562,6 @@ header figure {
   }
 
   /* Features */
-
   .features h2 {
     margin-bottom: 20px;
   }
@@ -667,7 +681,6 @@ header figure {
 @media only screen and (min-width: 1200px) {
 
   /*Desktop styles here */
-
   header {
     padding: 15px 0;
   }
@@ -679,6 +692,7 @@ header figure {
   .content-wrapper {
     max-width: 960px;
   }
+
   h2 {
     font-size: 2.25em;
   }
